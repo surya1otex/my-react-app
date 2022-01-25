@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
+//import Employee from './Employee';
+import Twowaydata from './Twowaydata';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Twowaydata />
   </React.StrictMode>,
   document.getElementById('root')
 );
